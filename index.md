@@ -4,7 +4,7 @@
 **Step2**  Create a file '.htpasswd' using commnad 
            1.  vi .htaccess
            2.  Add following lines to your file and save the file.
-           ```python
+```python
 s = "Python syntax highlighting"
 print s
 ```
