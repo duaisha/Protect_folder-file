@@ -4,33 +4,24 @@
 **Step2**  Create a file '.htpasswd' using commnad 
            1.  vi .htaccess
            2.  Add following lines to your file and save the file.
-```python
-s = "Python syntax highlighting"
-print s
+
 ```
- 
+username
+password
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
-           ```
-           username
-           password
-           ```
-      
+
 **Step3** Open the webpage folder or file to which you want to add privacy settings.
 **Step4** Create a file '.htaccess' using commnad 
            * vi .htaccess
            
 **Step5** Add Following lines to the '.htaccess' file.
-            ```
-              AuthUserFile /path/to/htpasswd/file/.htpasswd
-              AuthGroupFile /dev/null
-              AuthName "Name of Area"
-              AuthType Basic
-              require valid-user
-              ```
-          1. In the above line1 change path from '/path/to/htpasswd/file/.htpasswd' to the path of the folder containing '.htpasswd' file.
+```python
+username
+password
+```
+         
+         
+         1. In the above line1 change path from /path/to/htpasswd/file/.htpasswd to the path of the folder containing .htpasswd file.
           2. In the above line3 change Auth Name from 'Name of Area' to the name you want the dialog box to show.(Not necessary).
           3. Save the file
       
