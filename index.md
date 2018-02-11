@@ -1,4 +1,4 @@
-## Use HTAccess to Password Protect Your Web Pages/Folder/File
+## Use HTAccess to Password Protect Your Web Pages
 
 * **Step1**  Open the folder which is not public or accessible using webaddress.
 * **Step2**  Create a file '.htpasswd' using commnad 
