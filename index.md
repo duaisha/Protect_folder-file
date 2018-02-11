@@ -1,4 +1,4 @@
-## Use HTAccess to Password Protect Your Web Pages
+## Use HTAccess to add privacy settings to your Web Pages
 
 * **Step1**  Open the folder which is not public or accessible using webaddress.
 * **Step2**  Create a file '.htpasswd' using commnad 
@@ -10,7 +10,7 @@ username
 password
 ```
 
-* **Step3** Open the webpage folder or file to which you want to add privacy settings.
+* **Step3** Open the webpage folder or file to which you want to add privacy settings and is in public_html.
 * **Step4** Create a file '.htaccess' using commnad 
            * vi .htaccess
            
