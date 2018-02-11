@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Use HTAccess to Password Protect Your Web Pages/Folder/File
 
-You can use the [editor on GitHub](https://github.com/duaisha/Protect_folder-file/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+**Step1**  Open the folder which is not public or accessible using webaddress.
+**Step2**  Create a file '.htpasswd' using commnad 
+           1.  vi .htaccess
+           2.  Add following lines to your file and save the file.
+           
+           ```
+           username
+           password
+           ```
+      
+**Step3** Open the webpage folder or file to which you want to add privacy settings.
+**Step4** Create a file '.htaccess' using commnad 
+           * vi .htaccess
+           
+**Step5** Add Following lines to the '.htaccess' file.
+            ```
+              AuthUserFile /path/to/htpasswd/file/.htpasswd
+              AuthGroupFile /dev/null
+              AuthName "Name of Area"
+              AuthType Basic
+              require valid-user
+              ```
+          1. In the above line1 change path from '/path/to/htpasswd/file/.htpasswd' to the path of the folder containing '.htpasswd' file.
+          2. In the above line3 change Auth Name from 'Name of Area' to the name you want the dialog box to show.(Not necessary).
+          3. Save the file
+      
+**Step6** Open your webpage in the browser, it will prompt for login, enter your username and passwd. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Done **
+          
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duaisha/Protect_folder-file/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
