@@ -4,6 +4,15 @@
 **Step2**  Create a file '.htpasswd' using commnad 
            1.  vi .htaccess
            2.  Add following lines to your file and save the file.
+           ```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
            ```
            username
            password
