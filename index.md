@@ -22,8 +22,9 @@ AuthName "Name of Area"
 AuthType Basic
 require valid-user
 ```
-1. In the above line1 change path from /path/to/htpasswd/file/.htpasswd to the path of the folder containing .htpasswd file.
-2. In the above line3 change Auth Name from 'Name of Area' to the name you want the dialog box to show.(Not necessary).
+**<span style="color:blue">Do the following changes</span>**
+1. Change the path in line1  from "/path/to/htpasswd/file/.htpasswd" to the path of the folder containing .htpasswd file.
+2. Change the auth name in line3 from "Name of Area" to the name you want the dialog box to show.(Not necessary).
 3. Save the file
       
 **Step6** Open your webpage in the browser, it will prompt for login, enter your username and passwd. 
